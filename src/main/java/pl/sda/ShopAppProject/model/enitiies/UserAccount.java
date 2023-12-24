@@ -1,4 +1,4 @@
-package pl.sda.todoapp.model.enitiies;
+package pl.sda.ShopAppProject.model.enitiies;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
@@ -8,9 +8,8 @@ import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.annotation.Id;
 import org.springframework.stereotype.Component;
-import pl.sda.todoapp.model.enitiies.Address;
-import pl.sda.todoapp.model.enums.AdminOrUser;
-import pl.sda.todoapp.util.PasswordManager;
+import pl.sda.ShopAppProject.model.enums.AdminOrUser;
+import pl.sda.ShopAppProject.util.PasswordManager;
 
 import java.util.UUID;
 

@@ -1,10 +1,9 @@
-package pl.sda.todoapp.util;
+package pl.sda.ShopAppProject.util;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;
-import pl.sda.todoapp.model.enitiies.UserAccount;
+import pl.sda.ShopAppProject.model.enitiies.UserAccount;
 
 import java.util.UUID;
 

@@ -1,4 +1,4 @@
-package pl.sda.todoapp.config;
+package pl.sda.ShopAppProject.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

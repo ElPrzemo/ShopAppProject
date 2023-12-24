@@ -1,4 +1,4 @@
-package pl.sda.todoapp.model.enitiies;
+package pl.sda.ShopAppProject.model.enitiies;
 
 import jakarta.persistence.Embeddable;
 

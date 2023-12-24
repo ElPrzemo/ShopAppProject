@@ -1,4 +1,4 @@
-package pl.sda.todoapp.model.enums;
+package pl.sda.ShopAppProject.model.enums;
 
 public enum AdminOrUser {
     ADMIN,
