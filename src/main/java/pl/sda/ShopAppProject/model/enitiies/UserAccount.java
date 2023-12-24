@@ -22,6 +22,9 @@ import java.util.UUID;
 
 public class UserAccount {
 
+    @Autowired
+   private final PasswordManager passwordManager;
+
     @jakarta.persistence.Id
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -44,8 +47,7 @@ public class UserAccount {
     @Enumerated(EnumType.STRING)
     private AdminOrUser adminOrUser;
 
-    @Autowired
-    PasswordManager passwordManager;
+
 
     public void setPassword(String password) {
         this.passwordHash = this.passwordManager.hashPassword(password);
